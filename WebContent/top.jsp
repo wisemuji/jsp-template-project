@@ -16,7 +16,7 @@
         .nav {
             background-color: #f3f3f7;
             height: 46.4px;
-            padding: 10px;
+            padding: 10px 0px;
             width: 100vw;
         }
         .logo{
