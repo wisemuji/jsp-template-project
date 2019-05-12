@@ -54,8 +54,6 @@
         .content-wrap{
             margin-top: 310px;
             background-color: #f3f3f7;
-            
-            padding-bottom: 35px;
         }
         #map{
         	height: 100vh;
