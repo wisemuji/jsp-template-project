@@ -19,10 +19,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td width="200" valign="top">
-			<jsp:include page="left.jsp" flush="false"/>
-		</td>
-		<td width="600" valign="top">
+		<td colspan=2>
 			<jsp:include page="<%= contentPage %>" flush="false"/>
 		</td>
 	</tr>
