@@ -64,7 +64,7 @@
         .content-wrap{
             margin-top: 310px;
             background-color: #d3d3d7;
-            height: 900px;
+            padding-bottom: 35px;
         }
         .posters{
             display: flex;
@@ -74,6 +74,9 @@
             max-height: 510px;
             margin: 20px 14px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px, rgba(0, 0, 0, 0.11) 0px 10px 20px;
+    	}
+    	.event-title{
+    		margin-left: 150px;
     	}
     </style>
 </head>
@@ -90,6 +93,8 @@
         </div>
     </div>
     <div class="content-wrap">
+    	<br>
+    	<h1 class="event-title">진행중인 이벤트</h1>
         <div class="posters">
             <img src="images/poster1.jpg" class="poster1">
             <img src="images/poster2.jpg" class="poster2">
