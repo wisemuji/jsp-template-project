@@ -72,7 +72,7 @@
         }
         .posters img{
             max-height: 510px;
-            margin: 20px 10px;
+            margin: 20px 14px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px, rgba(0, 0, 0, 0.11) 0px 10px 20px;
     	}
     </style>
