@@ -55,7 +55,7 @@
             <span><a href="shopping.jsp">쇼핑하기</a></span>
             <span><a href="dictionary.jsp">주문 사전</a></span>
             <span><a href="create.jsp">나만의 주문</a></span>
-            <span><a href="#">지도</a></span>
+            <span><a href="map.jsp">지도</a></span>
         </span>
     </div>
 
