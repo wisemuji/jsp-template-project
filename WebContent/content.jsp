@@ -61,11 +61,16 @@
             background-color: rgba(0,0,0,0);
             border: 3px solid aliceblue;
         }
+        .content-wrap{
+            margin-top: 310px;
+            background-color: #f3f3f7;
+            height: 900px;
+        }
     </style>
 </head>
 <body>
     <div class="wrap">
-        <img src="images/background3.jpg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+        <img src="images/background3.jpg" style='position:fixed;top:0px;left:0px;min-width:100%;min-height:100%;z-index:-1;'>
         <div class="title">
             <div><span class="magic">마법</span>에</div>
             <div>빠지고</div>
@@ -75,5 +80,16 @@
             <button class="round-button">View More</button>
         </div>
     </div>
+    <div class="content-wrap">
+        hi
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(".round-button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".content-wrap").offset().top},
+        'slow');
+});
+</script>
 </body>
 </html>

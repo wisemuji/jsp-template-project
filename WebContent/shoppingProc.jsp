@@ -62,6 +62,17 @@
             <button class="round-button">View More</button>
         </div>
     </div>
+    <div class="content-wrap">
+        hi
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(".round-button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".content-wrap").offset().top},
+        'slow');
+});
+</script>
 
 </body>
 </html>
