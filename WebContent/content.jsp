@@ -64,16 +64,17 @@
         .content-wrap{
             margin-top: 310px;
             background-color: #d3d3d7;
-            height: 500px;
+            height: 900px;
         }
         .posters{
             display: flex;
             justify-content: center;
         }
         .posters img{
-            max-height: 500px;
+            max-height: 510px;
             margin: 20px 10px;
-        }
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px, rgba(0, 0, 0, 0.11) 0px 10px 20px;
+    	}
     </style>
 </head>
 <body>
