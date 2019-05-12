@@ -5,6 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-AmhIy9r8DDmCs6gApucOEHaWOPeyKzE&callback=initMap">
+</script>
 <style>
         .bg {
             /* The image used */
@@ -51,7 +54,12 @@
         .content-wrap{
             margin-top: 310px;
             background-color: #f3f3f7;
-            height: 900px;
+            
+            padding-bottom: 35px;
+        }
+        #map{
+        	height: 100vh;
+        	
         }
     </style>
 </head>
@@ -68,7 +76,36 @@
         </div>
     </div>
     <div class="content-wrap">
-        hi
+    
+    <div id="map">
+    </div>
+    
+    <script>
+        window.onload = initMap;
+        function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 5,
+            center: {lat: 51.3042812, lng: -0.794651}
+        });
+
+        marker = new google.maps.Marker({
+            map: map,
+            draggable: false,
+            label: 'Hogwarts School Of Witchcraft And Wizardry',
+            animation: google.maps.Animation.DROP,
+            position: {lat: 51.3042812, lng: -0.794651}
+        });
+        marker.addListener('click', toggleBounce);
+        }
+
+        function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+            marker.setAnimation(null);
+        } else {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+        }
+    </script>
     </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
