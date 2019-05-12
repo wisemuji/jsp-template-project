@@ -81,27 +81,27 @@
     <script>
         window.onload = initMap;
         function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 5,
-            center: {lat: 51.3042812, lng: -0.794651}
-        });
-
-        marker = new google.maps.Marker({
-            map: map,
-            draggable: false,
-            label: 'Hogwarts School Of Witchcraft And Wizardry',
-            animation: google.maps.Animation.DROP,
-            position: {lat: 51.3042812, lng: -0.794651}
-        });
-        marker.addListener('click', toggleBounce);
+	        let map = new google.maps.Map(document.getElementById('map'), {
+	            zoom: 5,
+	            center: {lat: 51.3042812, lng: -0.794651}
+	        });
+	
+	        let marker = new google.maps.Marker({
+	            map: map,
+	            draggable: false,
+	            label: 'Hogwarts School Of Witchcraft And Wizardry',
+	            animation: google.maps.Animation.DROP,
+	            position: {lat: 51.3042812, lng: -0.794651}
+	        });
+	        marker.addListener('click', toggleBounce);
         }
 
         function toggleBounce() {
-        if (marker.getAnimation() !== null) {
-            marker.setAnimation(null);
-        } else {
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-        }
+	        if (marker.getAnimation() !== null) {
+	            marker.setAnimation(null);
+	        } else {
+	            marker.setAnimation(google.maps.Animation.BOUNCE);
+	        }
         }
     </script>
     </div>
