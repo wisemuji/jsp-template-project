@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -59,9 +59,9 @@
     <div class="wrap">
         <img src="images/background5.jpg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
         <div class="title">
-            <div><span class="magic">¡÷πÆ</span>¿ª</div>
-            <div>∏∏µÈ∞Ì</div>
-            <div>ΩÕ¿∫<span class="night">≥ </span></div>
+            <div><span class="magic">Ï£ºÎ¨∏</span>ÏùÑ</div>
+            <div>ÎßåÎì§Í≥†</div>
+            <div>Ïã∂ÏùÄ<span class="night">ÎÑà</span></div>
         </div>
         <div class="button">
             <button class="round-button">View More</button>
