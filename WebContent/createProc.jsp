@@ -48,6 +48,11 @@
             background-color: rgba(0,0,0,0);
             border: 3px solid aliceblue;
         }
+        .content-wrap{
+            margin-top: 310px;
+            background-color: #f3f3f7;
+            height: 900px;
+        }
     </style>
 </head>
 <body>

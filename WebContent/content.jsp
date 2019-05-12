@@ -63,8 +63,16 @@
         }
         .content-wrap{
             margin-top: 310px;
-            background-color: #f3f3f7;
-            height: 900px;
+            background-color: #d3d3d7;
+            height: 500px;
+        }
+        .posters{
+            display: flex;
+            justify-content: center;
+        }
+        .posters img{
+            max-height: 500px;
+            margin: 20px 10px;
         }
     </style>
 </head>
@@ -81,7 +89,16 @@
         </div>
     </div>
     <div class="content-wrap">
-        hi
+        <div class="posters">
+            <img src="images/poster1.jpg" class="poster1">
+            <img src="images/poster2.jpg" class="poster2">
+        </div>
+        <div class="posters">
+            <img src="images/poster3.jpg" class="poster3">
+            <img src="images/poster4.jpg" class="poster4">
+            <img src="images/poster5.jpg" class="poster5">
+            <img src="images/poster6.jpg" class="poster6">
+        </div>
     </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
