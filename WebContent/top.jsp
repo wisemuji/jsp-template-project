@@ -39,6 +39,7 @@
         .menu span{
             display: inline-block;
             padding: 10px;
+            font-weight: bold;
         }
         .menu span:hover{
             background-color: #d3d3d3;
