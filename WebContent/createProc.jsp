@@ -51,8 +51,50 @@
         .content-wrap{
             margin-top: 310px;
             background-color: #f3f3f7;
-            height: 900px;
+            padding: 135px 0px;
         }
+        .search {
+		  width: 100%;
+		  position: relative;
+		  display: flex;
+		}
+		
+		.searchTerm {
+		  width: 100%;
+		  border: 3px solid rgb(230,84,84);
+		  padding: 5px;
+		  height: 20px;
+		  border-radius: 5px;
+		  outline: none;
+		  font-size: 12pt;
+		  color: #323232;
+		  margin: 0px 5px;
+		}
+		
+		.searchTerm:focus{
+		  color: #323232;
+		}
+		
+		.searchButton {
+		  height: 36px;
+		  border: 1px solid rgb(230,84,84);
+		  background: rgb(230,84,84);
+		  text-align: center;
+		  color: #fff;
+		  border-radius: 5px;
+		  cursor: pointer;
+		  font-size: 15px;
+		  margin-top:20px;
+		}
+		.search-wrap{
+		  width: 30%;
+		  margin: 0 auto;
+		  text-align: center;
+           padding: 50px 0px;
+		}
+		.spells-wrap{
+			margin-left: 510px;
+		}
     </style>
 </head>
 <body>
@@ -68,7 +110,19 @@
         </div>
     </div>
     <div class="content-wrap">
-        hi
+	    <div class="search-wrap">
+	    	<h1>새로운 주문을 만들어 보세요.</h1>
+	    	<h3>새로 만들고 싶은 주문의 이름과 효력을 입력하고 확인 버튼을 누르면 주문이 새로 추가됩니다.</h3>
+	    	<form action="createSpellProc.jsp" method="POST">
+		        <div class="search">
+		            <input type="text" class="searchTerm" placeholder="주문의 이름" name="name">
+		            <input type="text" class="searchTerm" placeholder="주문의 효력" name="content">
+		        </div>
+	            <button type="submit" class="searchButton">
+	                	주문 만들기
+	            </button>
+            </form>
+	    </div>
     </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
