@@ -22,12 +22,12 @@
         .logo{
             float: left;
             padding: 10px;
-            max-width: 220px;
+            max-width: 160px;
         }
         .menu{
             float: right;
             color: #333733;
-            font-size: 14pt;
+            font-size: 12pt;
             height: 100%;
             text-align: right;
             padding-right: 20px;
@@ -39,6 +39,7 @@
         .menu span{
             display: inline-block;
             padding: 10px;
+            margin-left: 10px;
             font-weight: bold;
         }
         .menu span:hover{
@@ -48,13 +49,13 @@
 </head>
 <body>
     <div class="nav">
-        <a href="/"><img src="images/logo.png" class="logo"></a>
+        <a href="main.jsp"><img src="images/logo.png" class="logo"></a>
         <span class="menu">
-            <span><a href="#">이벤트▼</a></span>
-            <span><a href="#">쇼핑하기▼</a></span>
-            <span><a href="#">주문 사전▼</a></span>
-            <span><a href="#">나만의 주문▼</a></span>
-            <span><a href="#">지도▼</a></span>
+            <span><a href="main.jsp">이벤트</a></span>
+            <span><a href="shopping.jsp">쇼핑하기</a></span>
+            <span><a href="dictionary.jsp">주문 사전</a></span>
+            <span><a href="create.jsp">나만의 주문</a></span>
+            <span><a href="#">지도</a></span>
         </span>
     </div>
 
