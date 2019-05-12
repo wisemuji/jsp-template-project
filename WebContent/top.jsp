@@ -30,6 +30,7 @@
             font-size: 14pt;
             height: 100%;
             text-align: right;
+            padding-right: 20px;
         }
         .menu a{
             text-decoration: none;
