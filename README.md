@@ -17,6 +17,27 @@
 
 ## 실행 화면
 
+> ![메인화면](https://user-images.githubusercontent.com/32327475/57596999-61e65d80-7588-11e9-9ba8-636b12f37a78.png)
+**메인화면**
+
+> ![이벤트](https://user-images.githubusercontent.com/32327475/57597007-690d6b80-7588-11e9-9b4d-10eba3fe825e.png)
+**이벤트**
+
+> ![쇼핑하기](https://user-images.githubusercontent.com/32327475/57597038-880bfd80-7588-11e9-8036-342c815ab4cf.png)
+**쇼핑하기**
+
+> ![물약판매](https://user-images.githubusercontent.com/32327475/57597018-6f034c80-7588-11e9-95e6-62dd12dc7166.png)
+**물약판매**
+
+> ![마법주문도감](https://user-images.githubusercontent.com/32327475/57597022-732f6a00-7588-11e9-8679-1cc5f2509281.png)
+**마법주문도감**
+
+> ![마법주문만들기](https://user-images.githubusercontent.com/32327475/57597024-77f41e00-7588-11e9-8dab-97bcc937be65.png)
+**마법주문만들기**
+
+> ![지도](https://user-images.githubusercontent.com/32327475/57597030-7e829580-7588-11e9-9c11-f5f82d6cc572.png)
+**지도**
+
 
 ## Development setup
 
