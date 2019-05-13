@@ -20,13 +20,8 @@
 
 ## Development setup
 
-1. Install `Tomcat 9.0`
-2. `Eclipse Java EE IDE`로 실행
-
-```sh
-npm install
-npm start
-```
+1. Install `Tomcat 9.0`, `Eclipse Java EE IDE`
+2. Run on Server
 
 ## Built With
 
