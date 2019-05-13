@@ -1,12 +1,12 @@
 <%@page import="java.io.FileReader"%>
 <%@page import="java.io.BufferedReader"%>
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>마법에 빠지고 싶은 밤</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
         .bg {
@@ -50,6 +50,10 @@
             color: aliceblue;
             background-color: rgba(0,0,0,0);
             border: 3px solid aliceblue;
+        }
+        .round-button:hover{
+        	cursor: pointer;
+            background-color: rgba(255,255,255,0.2);
         }
         .content-wrap{
             margin-top: 310px;
@@ -95,7 +99,8 @@
            padding: 50px 0px;
 		}
 		.spells-wrap{
-			margin-left: 510px;
+		  margin: 0 auto;
+		  width: 450px;
 		}
     </style>
 </head>

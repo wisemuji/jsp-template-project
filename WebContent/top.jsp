@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+<title>마법에 빠지고 싶은 밤</title>
     <style>
         @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
         @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
@@ -56,7 +56,7 @@
     <div class="nav">
         <a href="main.jsp"><img src="images/logo.png" class="logo"></a>
         <span class="menu">
-            <span><a href="main.jsp">이벤트</a></span>
+            <span><a href="event.jsp">이벤트</a></span>
             <span><a href="shopping.jsp">쇼핑하기</a></span>
             <span><a href="dictionary.jsp">주문 사전</a></span>
             <span><a href="create.jsp">나만의 주문</a></span>

@@ -43,10 +43,10 @@
             line-height: 49pt;
         }
         .magic{
-            color: rgb(66,152,211);
+            color: rgb(250,223,148);
         }
         .night{
-            color: rgb(114,114,198);
+            color: rgb(127,127,127);
         }
         .button{
             margin: 0 auto;
@@ -66,7 +66,9 @@
             background-color: rgba(255,255,255,0.2);
         }
         .content-wrap{
-            margin: 310px 0px 360px;
+            margin-top: 310px;
+            background-color: #d3d3d7;
+            padding-bottom: 35px;
         }
         .posters{
             display: flex;
@@ -81,23 +83,14 @@
     		margin: 0 auto;
     		width: 950px;
     	}
-    	.info{
-    		margin: 0 auto;
-    		width: 550px;
-            height: 64px;
-            border: 3px solid aliceblue;
-            color: aliceblue;
-            padding: 25px;
-            font-size: 15pt;
-    	}
     </style>
 </head>
 <body>
     <div class="wrap">
-        <img src="images/background3.jpg" style='position:fixed;top:0px;left:0px;min-width:100%;min-height:100%;z-index:-1;'>
+        <img src="images/background1.jpg" style='position:fixed;top:0px;left:0px;min-width:100%;min-height:100%;z-index:-1;'>
         <div class="title">
-            <div><span class="magic">마법</span>에</div>
-            <div>빠지고</div>
+            <div><span class="magic">행사</span>에</div>
+            <div>가보고</div>
             <div>싶은<span class="night">밤</span></div>
         </div>
         <div class="button">
@@ -105,7 +98,18 @@
         </div>
     </div>
     <div class="content-wrap">
-        <div class="info">마법에 빠지고 싶은 밤은 해리포터의 마법 세계관에서 영감을 받아 마법사와 마녀가 실제로 존재한다면 어떨까 가정한 웹사이트입니다.</div>
+    	<br>
+    	<h1 class="event-title">진행중인 이벤트</h1>
+        <div class="posters">
+            <img src="images/poster1.jpg" class="poster1">
+            <img src="images/poster2.jpg" class="poster2">
+        </div>
+        <div class="posters">
+            <img src="images/poster3.jpg" class="poster3">
+            <img src="images/poster4.jpg" class="poster4">
+            <img src="images/poster5.jpg" class="poster5">
+            <img src="images/poster6.jpg" class="poster6">
+        </div>
     </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>

@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>마법에 빠지고 싶은 밤</title>
 <style>
         .bg {
             /* The image used */
@@ -48,6 +48,10 @@
             background-color: rgba(0,0,0,0);
             border: 3px solid aliceblue;
         }
+        .round-button:hover{
+        	cursor: pointer;
+            background-color: rgba(255,255,255,0.2);
+        }
         .content-wrap{
             margin-top: 310px;
             background-color: #d3d3d7;
@@ -78,10 +82,12 @@
             box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px, rgba(0, 0, 0, 0.11) 0px 10px 20px;
         }
     	.shopping-title{
-    		margin-left: 150px;
+    		margin: 0 auto;
+    		width: 750px;
     	}
         .buttons{
-            margin-left: 150px;
+    		margin: 0 auto;
+    		width: 750px;
         }
         .buttons span{
             display: inline-block;
@@ -132,10 +138,10 @@
 	            <img src="images/potions/yellow.png">
 	        </div>
 	        <div class="products">
-	            <span>보라맛 / 3.5$</span>
-	            <span>상큼맛 / 3.5$</span>
-	            <span>바다맛 / 3.5$</span>
-	            <span>레몬맛 / 3.5$</span>
+	            <span>보라맛 / 3.0$</span>
+	            <span>상큼맛 / 3.0$</span>
+	            <span>바다맛 / 3.0$</span>
+	            <span>레몬맛 / 3.0$</span>
 	        </div>
 	        <div class="products">
 	            <img src="images/potions/red.png">
@@ -163,10 +169,10 @@
             <img src="images/potions/indipink.png">
         </div>
         <div class="products">
-            <span>민트맛 / 3.5$</span>
-            <span>복숭아맛 / 3.5$</span>
-            <span>녹즙맛 / 3.5$</span>
-            <span>슬라임맛 / 3.5$</span>
+            <span>민트맛 / 4.0$</span>
+            <span>복숭아맛 / 4.0$</span>
+            <span>녹즙맛 / 4.0$</span>
+            <span>슬라임맛 / 4.0$</span>
         </div>
         <div class="products">
             <img src="images/potions/orange.png">
@@ -175,10 +181,10 @@
             <img src="images/potions/blue.png">
         </div>
         <div class="products">
-            <span>감귤맛 / 3.5$</span>
-            <span>우유맛 / 3.5$</span>
-            <span>풍선껌맛 / 3.5$</span>
-            <span>하늘맛 / 3.5$</span>
+            <span>감귤맛 / 4.5$</span>
+            <span>우유맛 / 4.5$</span>
+            <span>풍선껌맛 / 4.5$</span>
+            <span>하늘맛 / 4.5$</span>
         </div>
         <script>
         <%if(taste!=null){%>

@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>마법에 빠지고 싶은 밤</title>
 <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-AmhIy9r8DDmCs6gApucOEHaWOPeyKzE&callback=initMap">
 </script>
@@ -51,9 +51,14 @@
             background-color: rgba(0,0,0,0);
             border: 3px solid aliceblue;
         }
+        .round-button:hover{
+        	cursor: pointer;
+            background-color: rgba(255,255,255,0.2);
+        }
         .content-wrap{
             margin-top: 310px;
             background-color: #f3f3f7;
+            padding: 50px 310px;
         }
         #map{
         	height: 100vh;
@@ -74,7 +79,10 @@
         </div>
     </div>
     <div class="content-wrap">
-    
+   	<div class="info">
+   		<h1>호그와트 마법학교</h1>
+   		<h3>호그와트는 영국의 유명한 마법사 '해리 포터'가 다녔던 학교로 이 시대의 가장 뛰어난 실력을 가진 마법사들을 양성하는 마법학교이다. 약 600명 정도의 학생이 재학중이다.</h3>
+   	</div>
     <div id="map">
     </div>
     

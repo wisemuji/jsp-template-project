@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Template 페이지</title>
+<title>마법에 빠지고 싶은 밤</title>
 </head>
 <body>
 

@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>마법에 빠지고 싶은 밤</title>
 </head>
 <body>
 

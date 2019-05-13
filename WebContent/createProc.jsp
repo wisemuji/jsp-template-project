@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>마법에 빠지고 싶은 밤</title>
 <style>
         .bg {
             /* The image used */
@@ -48,6 +48,10 @@
             background-color: rgba(0,0,0,0);
             border: 3px solid aliceblue;
         }
+        .round-button:hover{
+        	cursor: pointer;
+            background-color: rgba(255,255,255,0.2);
+        }
         .content-wrap{
             margin-top: 310px;
             background-color: #f3f3f7;
@@ -87,7 +91,7 @@
 		  margin-top:20px;
 		}
 		.search-wrap{
-		  width: 30%;
+		  width: 40%;
 		  margin: 0 auto;
 		  text-align: center;
            padding: 50px 0px;
@@ -103,7 +107,7 @@
         <div class="title">
             <div><span class="magic">주문</span>을</div>
             <div>만들고</div>
-            <div>싶은<span class="night">너</span></div>
+            <div>싶은<span class="night">밤</span></div>
         </div>
         <div class="button">
             <button class="round-button">View More</button>
